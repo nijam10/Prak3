@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class DashboardController extends Controller
 {
     public function index(){
-        return 'Ini Halaman Dashboard';
+        return view('Dashboard');
     }
 }

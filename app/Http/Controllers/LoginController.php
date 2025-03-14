@@ -8,6 +8,6 @@ class LoginController extends Controller
 {
     public function index()
     {
-        return ('Ini adalah halaman login');
+        return view('login');
     }
 }

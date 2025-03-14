@@ -38,3 +38,7 @@ Route::get ('/listbarang{id}/{nama}', [ ListBarangController::class, 'tampilkan'
 Route::get('/login', [LoginController::class, 'index']);
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/list-item', [ListItemController::class, 'index']);
+
+Route::get('about', function (){
+    return view ('about');
+    });

@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laravel</title>
+    <title>List Item</title>
 </head>
 <body>
-    <h1>Ini Halaman Utama</h1>
+    <h1>Ini adalah tampilan list item</h1>
 </body>
 </html>
